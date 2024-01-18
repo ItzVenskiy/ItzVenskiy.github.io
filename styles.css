@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.macos-header {
+    background-color: #f8f8f8;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.macos-window {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.macos-title-bar {
+    background-color: #f1f1f1;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.macos-buttons {
+    display: flex;
+    margin-right: 8px;
+}
+
+.macos-close-button, .macos-minimize-button, .macos-zoom-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.macos-close-button {
+    background-color: #ff5f57;
+}
+
+.macos-minimize-button {
+    background-color: #ffbd2e;
+}
+
+.macos-zoom-button {
+    background-color: #28ca42;
+}
+
+.macos-title {
+    flex-grow: 1;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.macos-content {
+    padding: 20px;
+}
